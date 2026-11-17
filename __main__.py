@@ -19,3 +19,5 @@ pulumi.export("vnet_name", vnet.name)
 pulumi.export("web_subnet_id", web_subnet.id)
 pulumi.export("app_subnet_id", app_subnet.id)
 pulumi.export("db_subnet_id", db_subnet.id)
+import vm
+vm.create_vm(resource_group, web_subnet)

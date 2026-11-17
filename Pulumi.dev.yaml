@@ -1,3 +1,5 @@
 encryptionsalt: v1:yGFpb2gW5GA=:v1:ToeRqkKj0tyYo89G:Ta4SdNKRaNeAocgtFFW/LOkarzrA5A==
 config:
   azure-native:location: centralindia
+  pulumi-azure-labs:sshPublicKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAID12+CWGwiGBOy75ts0OwDkvaNQWmkPxyt4jvDGUcOra azadmin6@SandboxHost-639305076061464775
+  pulumi-azure-labs:vmSize: Standard_B1s
